@@ -1,5 +1,5 @@
-// This code goes at the top of the website pages
 <?php
+// This code goes at the top of the website pages
 include("../../sql.php");
 $page="vpn.brenthopkins.me/[page].php"; 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
